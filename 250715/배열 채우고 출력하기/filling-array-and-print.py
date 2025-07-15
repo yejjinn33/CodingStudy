@@ -1,4 +1,4 @@
-arr = list(map(input().split()))
+arr = list((input().split()))
 
-for i in range(10) :
-    print(arr[:-1])
+for i in range(9, -1, -1) :
+    print(arr[i], end='')
