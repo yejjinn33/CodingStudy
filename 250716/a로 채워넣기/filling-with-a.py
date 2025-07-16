@@ -1,6 +1,7 @@
 a = input()
+aa = len(a)
 
-a1 = a.replace(a[1], "a", 1)
-a2 = a1.replace(a[-2], "a", 1)
+a = a[:1] + "a" + a[2:]
+a = a[:aa-2] + "a" + a[aa-1:]
 
-print(a2)
+print(a)
